@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accept">Aceitar</string>
+    <string name="action_settings">Configuracao</string>
+    <string name="alphabet">A</string>
+    <string name="ano">Filtrar por Ano</string>
+    <string name="app_name">Tv online</string>
+    <string name="baseurl">http://techrevolution.com/</string>
+    <string name="beta">Todos</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="decline">Negar</string>
+    <string name="desc">Sim</string>
+    <string name="dummy_button">Sair</string>
+    <string name="episodes">Episódios</string>
+    <string name="favorito">Favoritos</string>
+    <string name="generos">Categorias</string>
+    <string name="baixar">Downloads</string>
+    <string name="lancamentos">Nova Temporada</string>
+    <string name="latest">Atualizados</string>
+    <string name="lista_anime">Lista Completa</string>
+    <string name="main_header">Viper</string>
+    <string name="name">Nome</string>
+    <string name="outros">Outros</string>
+    <string name="mais">Extras</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="popular">Mais Assistidos</string>
+    <string name="store_picture_message">Aceita autorizar accesso de gravação para download?</string>
+    <string name="store_picture_message_negate">Não foi autorizado o acesso de gravação.</string>
+
+    <string name="store_picture_title">Savar Vídeo</string>
+    <string name="titulo_ordem">Alguma Coisa</string>
+    <string name="txt_some_header">Ex: Fate</string>
+    <string name="screen_rotation">rotação</string>
+
+    <!-- Missions -->
+    <string name="start">Iniciar</string>
+    <string name="pause">Pausar</string>
+    <string name="view">Abrir</string>
+    <string name="delete">Delete</string>
+    <string name="checksum">Checksum</string>
+
+    <!-- Info -->
+    <string name="url">Url</string>
+    <string name="path">Local</string>
+    <string name="create_date">Criado em</string>
+    <string name="total_size">Tamanho</string>
+    <string name="downloaded_size">Baixado</string>
+    <string name="speed">Velocidade</string>
+    <string name="blocks_count">Blocos</string>
+    <string name="threads_count">Conexões simultâneas</string>
+
+    <!-- Fragment -->
+    <string name="add">Novo</string>
+    <string name="finish">Baixar</string>
+    <string name="switch_mode">troca entre lista e tabela</string>
+    <string name="settings">Configurações</string>
+
+    <!-- Browser -->
+    <string name="browser">Simple Browser</string>
+    <string name="detector">Video detector</string>
+
+    <!-- Settings -->
+    <string name="about">Sobre</string>
+
+    <!-- Msg -->
+    <string name="msg_url">Download URL</string>
+    <string name="msg_name">Nome</string>
+    <string name="msg_threads">Conexões</string>
+    <string name="msg_fetch_filename">Nome do Arquivo</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_server_unsupported">Não suportado, ou falha</string>
+    <string name="msg_enter_url">Digite uma URL</string>
+    <string name="msg_no_video">Oops, nenhum video detectado</string>
+    <string name="msg_exists">O vídeo já existe, renomeie para baixar outra cópia</string>
+    <string name="msg_url_malform">Url malformada ou falha na conexão</string>
+    <string name="msg_running">Download está executando</string>
+    <string name="msg_running_detail">Clique para detalhes</string>
+    <string name="msg_wait">Por Favor Aguarde...</string>
+    <string name="msg_copied">Copiado para clipboard.</string>
+    <string name="msg_close">Fechar</string>
+    <string name="change_download_dir">Pasta de Downloads</string>
+    <string name="no_available_dir">Selecione um diretório disponível.</string>
+    <string name="need_restart">Will not take effect before you restart the app.</string>
+    <string name="open_with_gigaget">Abrir com tvonline</string>
+
+    <!-- Checksum types -->
+    <string name="md5" translatable="false">MD5</string>
+    <string name="sha1" translatable="false">SHA1</string>
+
+
+
+</resources>
