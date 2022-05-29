@@ -159,7 +159,7 @@ public class ActivityEpisodio extends Activity implements OnClickListener {
 
         this.titulo = (TextView) findViewById(R.id.tv_title);
         this.searchbtn = (ImageView) findViewById(R.id.pesq);
-        setTitulo("Anime");
+        setTitulo("Canal");
         this.layout = (ViewGroup) findViewById(R.id.banner);
 
 
@@ -180,14 +180,14 @@ public class ActivityEpisodio extends Activity implements OnClickListener {
         if (bundle == null) {
             this.frag = new AniFragment();
             Bundle bundle2 = new Bundle();
-            this.canal = (Canal) getIntent().getSerializableExtra("anime");
-            bundle2.putString("anime", this.canal.getId().toString());
+            this.canal = (Canal) getIntent().getSerializableExtra("canal");
+            bundle2.putString("canal", this.canal.getId().toString());
             this.frag.setArguments(bundle2);
-            this.tagFrag = "Ani";
+            this.tagFrag = "Canal";
             getFragmentManager().beginTransaction().replace(com.kimede.viper.R.id.conteudo, this.frag, this.tagFrag).commit();
         } else {
             this.tagFrag = bundle.getString("tag");
-            this.canal = (Canal) bundle.getSerializable("anime");
+            this.canal = (Canal) bundle.getSerializable("canal");
             this.frag = (BaseFragment) getFragmentManager().findFragmentByTag(this.tagFrag);
         }
         this.favoritar = (CheckBox) findViewById(com.kimede.viper.R.id.favoritar);
@@ -228,7 +228,7 @@ public class ActivityEpisodio extends Activity implements OnClickListener {
     }
 
     protected void onSaveInstanceState(Bundle bundle) {
-        bundle.putSerializable("anime", this.canal);
+        bundle.putSerializable("canal", this.canal);
         bundle.putSerializable("tag", this.tagFrag);
         super.onSaveInstanceState(bundle);
     }
