@@ -28,7 +28,7 @@ public class MyActivity extends FragmentActivity implements OnClickListener {
     public String tagFrag;
     public TextView textView;
 
-    /* renamed from: com.kimede.giganimaonline.MyActivity.2 */
+    /* renamed from: com.kimede.viperonline.MyActivity.2 */
     class Recarregar implements OnClickListener {
 
         public void onClick(View view) {
@@ -56,10 +56,10 @@ public class MyActivity extends FragmentActivity implements OnClickListener {
             } else if (MyActivity.this.tagFrag == "Outros") {
                 MyActivity.this.mContent = new Outros();
                 MyActivity.this.getFragmentManager().beginTransaction().replace(R.id.container, MyActivity.this.mContent, MyActivity.this.tagFrag).commit();
-            } else if (MyActivity.this.tagFrag.contains("Giganima")) {
+            } else if (MyActivity.this.tagFrag.contains("viper")) {
                 MyActivity.this.mContent = new PesquisaAniFragment();
                 Bundle r0 = new Bundle();
-                r0.putString("letra", MyActivity.this.tagFrag.replace("Giganima", ""));
+                r0.putString("letra", MyActivity.this.tagFrag.replace("viper", ""));
                 MyActivity.this.mContent.setArguments(r0);
                 MyActivity.this.getFragmentManager().beginTransaction().replace(R.id.container, MyActivity.this.mContent, MyActivity.this.tagFrag).commit();
             }
@@ -131,7 +131,7 @@ public class MyActivity extends FragmentActivity implements OnClickListener {
 
         inicializaMenu();
         this.textView = (TextView) findViewById(com.kimede.viper.R.id.tv_title);
-        this.textView.setText("Giganima");
+        this.textView.setText("viper");
         this.tagFrag = "Lista";
         this.reload = (ImageButton) findViewById(com.kimede.viper.R.id.Reloading);
         this.reload.setOnClickListener(new Recarregar());

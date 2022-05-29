@@ -4,11 +4,11 @@ android {
     compileSdkVersion 27
 
     defaultConfig {
-        applicationId "com.kimede.giganimaonline"
+        applicationId "com.kimede.viper"
         minSdkVersion 14
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        versionCode 27
+        versionName "3.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled = true
 
